@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38f876f50ec5ed547a6e27ecaefd5126, type: 3}
+  m_Name: Floor1
+  m_EditorClassIdentifier: 
+  currentSpeedFactor: 0
+  currentFieldOfView: 60
+  currentFieldOfViewDistance: 20
+  currentHearingRadius: 15
+  roamSpeedFactor: 0.3
+  investigateSpeedFactor: 0.5
+  chaseSpeedFactor: 0.8
+  happy_fieldOfViewAngle: 60
+  happy_fieldOfViewDistance: 20
+  angy_fieldOfViewAngle: 90
+  angy_fieldOfViewDistance: 40
+  mad_fieldOfViewAngle: 180
+  mad_fieldOfViewDistance: 60
+  happy_hearingRadius: 15
+  angy_hearingRadius: 25
+  mad_hearingRadius: 40
+  headYOffset: 1.7
+  angerLevel: 0
+  canHearWhileRoaming:
+    serializedVersion: 2
+    m_Bits: 16384
+  canHearWhileInvestigating:
+    serializedVersion: 2
+    m_Bits: 49152
+  playerSoundLayers:
+    serializedVersion: 2
+    m_Bits: 32768
+  objectSoundLayers:
+    serializedVersion: 2
+    m_Bits: 16384
+  visionBlockedLayers:
+    serializedVersion: 2
+    m_Bits: 66048
+  startleSound: {fileID: 8300000, guid: f4a3d8c148a49164ba92679824978466, type: 3}
+  investigateSound: {fileID: 8300000, guid: f017d1c866185ba42815a4aeec3b749f, type: 3}
+  playerSawSound: {fileID: 8300000, guid: ec48bc9a46a3ee843ad71169e761385e, type: 3}
+  lostPlayerSound: {fileID: 8300000, guid: c4d2604812bc5d44b880c9d6418acc3e, type: 3}
+  caughtPlayerSound: {fileID: 8300000, guid: 64ce6557da594f94cab736b522687603, type: 3}
+  investigatedSound: {fileID: 8300000, guid: d2631073ac8b1804f83487cbcdc2441e, type: 3}
